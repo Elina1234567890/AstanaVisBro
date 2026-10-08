@@ -1,6 +1,7 @@
 import type { AstanaVisCardDefinition } from "./cards-model";
 
 export const ASTANAVIS_CARDS: AstanaVisCardDefinition[] = [
+  // AKIRA
   {
     itemID: "akira-ordinary",
     characterId: "akira",
@@ -24,6 +25,7 @@ export const ASTANAVIS_CARDS: AstanaVisCardDefinition[] = [
     craftRarityId: "astanavis-tier-2",
   },
 
+  // ANNABEL
   {
     itemID: "annabel-ordinary",
     characterId: "annabel",
@@ -47,5 +49,195 @@ export const ASTANAVIS_CARDS: AstanaVisCardDefinition[] = [
     craftRarityId: "astanavis-tier-2",
   },
 
-  // дальше Ella, Hana, Julia, Lily, Lisa, Mia, Rin, Sakura
+  // ELLA
+  {
+    itemID: "ella-ordinary",
+    characterId: "ella",
+    characterName: "Ella",
+    name: "Ella",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG6%20(1).png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-ella",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "ella-legendary",
+    characterId: "ella",
+    characterName: "Ella",
+    name: "Ella",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG6%20(2).png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-ella",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // HANA
+  {
+    itemID: "hana-ordinary",
+    characterId: "hana",
+    characterName: "Hana",
+    name: "Hana",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/hana-ordinary.png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-hana",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "hana-legendary",
+    characterId: "hana",
+    characterName: "Hana",
+    name: "Hana",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/hana-legendary.png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-hana",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // JULIA
+  {
+    itemID: "julia-ordinary",
+    characterId: "julia",
+    characterName: "Julia",
+    name: "Julia",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/julia-ordinary.png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-julia",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "julia-legendary",
+    characterId: "julia",
+    characterName: "Julia",
+    name: "Julia",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/julia-legendary.png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-julia",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // LILY
+  {
+    itemID: "lily-ordinary",
+    characterId: "lily",
+    characterName: "Lily",
+    name: "Lily",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/4.png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-lily",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "lily-legendary",
+    characterId: "lily",
+    characterName: "Lily",
+    name: "Lily",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/44.png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-lily",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // LISA
+  {
+    itemID: "lisa-ordinary",
+    characterId: "lisa",
+    characterName: "Lisa",
+    name: "Lisa",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG7%20(1).png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-lisa",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "lisa-legendary",
+    characterId: "lisa",
+    characterName: "Lisa",
+    name: "Lisa",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG7%20(2).png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-lisa",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // MIA
+  {
+    itemID: "mia-ordinary",
+    characterId: "mia",
+    characterName: "Mia",
+    name: "Mia",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/mia-ordinary.png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-mia",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "mia-legendary",
+    characterId: "mia",
+    characterName: "Mia",
+    name: "Mia",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/mia-legendary.png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-mia",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // RIN
+  {
+    itemID: "rin-ordinary",
+    characterId: "rin",
+    characterName: "Rin",
+    name: "Rin",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG5%20(2).png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-rin",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "rin-legendary",
+    characterId: "rin",
+    characterName: "Rin",
+    name: "Rin",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/CG5%20(1).png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-rin",
+    craftRarityId: "astanavis-tier-2",
+  },
+
+  // SAKURA
+  {
+    itemID: "sakura-ordinary",
+    characterId: "sakura",
+    characterName: "Sakura",
+    name: "Sakura",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/sakura-ordinary.png",
+    tier: 1,
+    rarity: "common",
+    collectionId: "astanavis-card-sakura",
+    craftRarityId: "astanavis-tier-1",
+  },
+  {
+    itemID: "sakura-legendary",
+    characterId: "sakura",
+    characterName: "Sakura",
+    name: "Sakura",
+    imagePath: "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/sakura-legendary.png",
+    tier: 2,
+    rarity: "legendary",
+    collectionId: "astanavis-card-sakura",
+    craftRarityId: "astanavis-tier-2",
+  },
 ];
