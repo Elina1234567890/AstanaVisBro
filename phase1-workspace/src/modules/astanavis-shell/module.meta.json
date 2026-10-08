@@ -1,0 +1,17 @@
+{
+  "id": "astanavis-shell",
+  "type": "feature",
+  "summary": "AstanaVis Cards collection and NEKO PACK Store.",
+  "description": "Cards render InventoryV2 stacks and combine through Craft; NEKO PACK uses the server-authoritative LootboxService.",
+  "provides": ["AstanaVis Cards collection", "AstanaVis NEKO PACK Store"],
+  "tags": ["astanavis", "shell"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" },
+  "events": {
+    "emits": [
+      { "topic": "astanavis-shell:trade-card@1", "when": "TRADE opens the marketplace for a selected card", "payload": { "itemID": "string" } },
+      { "topic": "astanavis-shell:craft-busy@1", "when": "Craft starts or finishes", "payload": { "busy": "boolean" } }
+    ],
+    "listens": [{ "topic": "marketplace:busy@1", "why": "block Craft while a marketplace mutation or reconciliation is in flight" }]
+  }
+}

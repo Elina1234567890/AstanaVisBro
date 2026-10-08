@@ -1,0 +1,21 @@
+/* Theme treatment of the existing iDos controls; no navigation or wallet logic. */
+[style*="radial-gradient"], div[style*="linear-gradient"], nav[style*="linear-gradient"] {
+  background: var(--idos-ui-bg-bottom) !important;
+}
+button[style*="linear-gradient"] {
+  background: var(--idos-ui-blue) !important;
+  color: var(--idos-ui-bg-bottom) !important;
+  border: 1px solid var(--idos-ui-bg-bottom) !important;
+  border-radius: 2px !important;
+  box-shadow: 3px 3px 0 var(--idos-ui-text) !important;
+}
+button[style*="linear-gradient"]:disabled {
+  background: var(--idos-ui-panel) !important;
+  color: var(--idos-ui-text-dim) !important;
+  border: 1px solid var(--idos-ui-text-dim) !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+button[style*="linear-gradient"] span { color: inherit !important; }
+* { text-shadow: none !important; }
+.av-hub .idos-press { border-radius: 2px !important; }

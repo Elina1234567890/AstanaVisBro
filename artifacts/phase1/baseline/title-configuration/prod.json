@@ -1,0 +1,878 @@
+{
+  "Currency": {
+    "VirtualCurrencies": {
+      "CO": {
+        "CurrencyID": "CO",
+        "DisplayName": "Coins",
+        "Economy": {
+          "ValueInUSD": 0.001,
+          "InitialDeposit": 1000,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Hidden"
+      },
+      "GE": {
+        "CurrencyID": "GE",
+        "DisplayName": "Gems",
+        "Economy": {
+          "ValueInUSD": 0.01,
+          "InitialDeposit": 50,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Hidden"
+      },
+      "VIS": {
+        "CurrencyID": "VIS",
+        "DisplayName": "VIS",
+        "Economy": {
+          "ValueInUSD": 0.001,
+          "InitialDeposit": 1000,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Active"
+      }
+    },
+    "CryptoCurrencies": {},
+    "CryptoRewardsFromDeveloperShare": false,
+    "CryptoIouForScriptsAndAI": false,
+    "CryptoAutoRepayIouOnWithdrawal": true
+  },
+  "Item": {
+    "Catalogs": {
+      "Item": {
+        "Items": {
+          "health_potion": {
+            "ItemID": "health_potion",
+            "CatalogID": "Item",
+            "DisplayName": "Health Potion",
+            "Description": "Restores health.",
+            "Tags": [
+              "potion"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "mana_potion": {
+            "ItemID": "mana_potion",
+            "CatalogID": "Item",
+            "DisplayName": "Mana Potion",
+            "Description": "Restores mana.",
+            "Tags": [
+              "potion"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "xp_scroll": {
+            "ItemID": "xp_scroll",
+            "CatalogID": "Item",
+            "DisplayName": "Scroll of Wisdom",
+            "Description": "A scroll full of experience.",
+            "Tags": [
+              "scroll"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Rare"
+            }
+          },
+          "iron_sword": {
+            "ItemID": "iron_sword",
+            "CatalogID": "Item",
+            "ItemClass": "Weapon",
+            "DisplayName": "Iron Sword",
+            "Description": "A reliable blade.",
+            "Tags": [
+              "weapon"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Attack": 8
+              },
+              "PercentBonuses": {},
+              "Power": 20
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Weapon"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Rare"
+            }
+          },
+          "oak_shield": {
+            "ItemID": "oak_shield",
+            "CatalogID": "Item",
+            "ItemClass": "Shield",
+            "DisplayName": "Oak Shield",
+            "Description": "Sturdy and light.",
+            "Tags": [
+              "armor"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Defense": 6
+              },
+              "PercentBonuses": {},
+              "Power": 12
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Offhand"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "golden_crown": {
+            "ItemID": "golden_crown",
+            "CatalogID": "Item",
+            "ItemClass": "Helmet",
+            "DisplayName": "Golden Crown",
+            "Description": "For the true champion.",
+            "Tags": [
+              "crown"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Health": 40
+              },
+              "PercentBonuses": {},
+              "Power": 60
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Head"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Legendary"
+            }
+          }
+        }
+      }
+    }
+  },
+  "UserCustomData": {
+    "Keys": {
+      "astanavis-progress": {
+        "KeyID": "astanavis-progress",
+        "Bucket": "ReadOnly",
+        "ValueType": "Json",
+        "MaxValueLengthBytes": 1024,
+        "DefaultValue": "{\"level\":1,\"xp\":0,\"xpToNext\":100}",
+        "Description": "Server-authoritative shared level and XP across AstanaVis Bro modes."
+      }
+    },
+    "DefaultMaxValueLengthBytes": 8192,
+    "MaxKeysPerBucket": 128,
+    "MaxTotalSizeBytes": 1500000,
+    "RejectUnregisteredKeys": false
+  },
+  "Collection": {
+    "Collections": {
+      "catgirls": {
+        "CollectionID": "catgirls",
+        "DisplayName": "Neko Stars",
+        "Description": "Коллекция анимешных кошкодевочек. Изображения будут добавлены автором проекта.",
+        "Sets": [
+          {
+            "SetID": "first-meet",
+            "DisplayName": "Первая встреча",
+            "SortOrder": 1,
+            "Collectibles": [
+              {
+                "CollectibleID": "neko-01",
+                "DisplayName": "Кошкодевочка 01",
+                "Rarity": 1,
+                "HasSpecialVersion": false,
+                "SortOrder": 1
+              },
+              {
+                "CollectibleID": "neko-02",
+                "DisplayName": "Кошкодевочка 02",
+                "Rarity": 1,
+                "HasSpecialVersion": false,
+                "SortOrder": 2
+              },
+              {
+                "CollectibleID": "neko-03",
+                "DisplayName": "Кошкодевочка 03",
+                "Rarity": 2,
+                "HasSpecialVersion": false,
+                "SortOrder": 3
+              },
+              {
+                "CollectibleID": "neko-04",
+                "DisplayName": "Кошкодевочка 04",
+                "Rarity": 2,
+                "HasSpecialVersion": false,
+                "SortOrder": 4
+              },
+              {
+                "CollectibleID": "neko-05",
+                "DisplayName": "Кошкодевочка 05",
+                "Rarity": 3,
+                "HasSpecialVersion": false,
+                "SortOrder": 5
+              },
+              {
+                "CollectibleID": "neko-06",
+                "DisplayName": "Кошкодевочка 06",
+                "Rarity": 3,
+                "HasSpecialVersion": false,
+                "SortOrder": 6
+              }
+            ],
+            "SetCompletionReward": {
+              "Standard": {
+                "Entries": [
+                  {
+                    "Type": "VirtualCurrency",
+                    "CurrencyID": "VIS",
+                    "Amount": 200
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "GrandPrize": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "VIS",
+                "Amount": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    "PackTypes": {
+      "neko-standard": {
+        "PackTypeID": "neko-standard",
+        "MaxOpenCount": 10,
+        "PriceOptions": {
+          "vis": {
+            "Cost": {
+              "Standard": {
+                "Entries": [
+                  {
+                    "Type": "VirtualCurrency",
+                    "CurrencyID": "VIS",
+                    "Amount": 100
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "DisplayName": "Neko Pack",
+        "CollectibleCount": 3,
+        "GuaranteedMinRarity": 1,
+        "GuaranteeMaxRarity": false,
+        "RarityWeights": {
+          "1": 70,
+          "2": 25,
+          "3": 5
+        },
+        "ColorTier": 1
+      }
+    },
+    "CollectionChests": [],
+    "Settings": {
+      "MaxPackOpenCount": 10,
+      "MaxChestOpenCount": 10
+    },
+    "DuplicateConversions": [
+      {
+        "Rarity": 1,
+        "CollectionCurrencyGranted": 1
+      },
+      {
+        "Rarity": 2,
+        "CollectionCurrencyGranted": 3
+      },
+      {
+        "Rarity": 3,
+        "CollectionCurrencyGranted": 10
+      }
+    ],
+    "DailyTradeLimit": 5,
+    "SpecialTradeEvents": []
+  },
+  "Store": {
+    "Stores": {
+      "main": {
+        "StoreID": "main",
+        "Identity": {
+          "DisplayName": "AstanaVis Store",
+          "Description": "Магазин AstanaVis Bro"
+        },
+        "Layout": {
+          "Sections": {
+            "daily": {
+              "Identity": {
+                "DisplayName": "Ежедневное",
+                "Description": "Ежедневные предложения",
+                "SortOrder": 1
+              },
+              "Slots": {
+                "daily-vis": {
+                  "Identity": {
+                    "SortOrder": 1
+                  },
+                  "Rotation": {
+                    "Mode": "Fixed",
+                    "OfferID": "daily-vis"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "StoreOffers": {
+      "daily-vis": {
+        "OfferID": "daily-vis",
+        "Identity": {
+          "DisplayName": "Ежедневные VIS",
+          "Description": "Получите 100 VIS один раз в день.",
+          "SortOrder": 1,
+          "Tags": [
+            "daily",
+            "vis"
+          ]
+        },
+        "Pricing": {
+          "Options": {
+            "free": {}
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "VIS",
+                  "Amount": 100
+                }
+              ]
+            }
+          }
+        },
+        "Availability": {
+          "Limits": {
+            "TotalCap": 0,
+            "DailyCap": 1,
+            "DailyWeightCap": 0,
+            "PerActivationCap": 0,
+            "CooldownSeconds": 0,
+            "MaxPerWindow": 0,
+            "WindowSeconds": 0
+          }
+        }
+      }
+    }
+  },
+  "Quest": {
+    "Cycles": {
+      "daily": {
+        "CycleID": "daily",
+        "DisplayName": "Daily quests",
+        "Schedule": {
+          "Mode": "Cyclic",
+          "IsActive": true,
+          "Cyclic": {
+            "Reset": "Daily",
+            "IntervalSeconds": 86400,
+            "PauseBetweenCyclesSec": 0,
+            "ClaimGraceHours": 0
+          }
+        },
+        "Milestones": {}
+      }
+    },
+    "Quests": {
+      "daily_visit": {
+        "QuestID": "daily_visit",
+        "Identity": {
+          "DisplayName": "Log in today"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "visit": {
+            "ObjectiveID": "visit",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "DailyLogin",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": false,
+                "OutcomeFilter": [],
+                "Params": {}
+              }
+            ],
+            "TargetValue": 1,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 20
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_earn": {
+        "QuestID": "daily_earn",
+        "Identity": {
+          "DisplayName": "Earn 100 coins"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "earn": {
+            "ObjectiveID": "earn",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "CurrencyEarned",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": true,
+                "OutcomeFilter": [],
+                "Params": {
+                  "CurrencyID": "CO"
+                }
+              }
+            ],
+            "TargetValue": 100,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 50
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_spend": {
+        "QuestID": "daily_spend",
+        "Identity": {
+          "DisplayName": "Spend 200 coins"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "spend": {
+            "ObjectiveID": "spend",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "CurrencySpent",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": true,
+                "OutcomeFilter": [],
+                "Params": {
+                  "CurrencyID": "CO"
+                }
+              }
+            ],
+            "TargetValue": 200,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "Item",
+                  "Amount": 2,
+                  "CatalogID": "Item",
+                  "ItemID": "health_potion"
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_play": {
+        "QuestID": "daily_play",
+        "Identity": {
+          "DisplayName": "Play the mini-game 3 times"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "play": {
+            "ObjectiveID": "play",
+            "Source": "ClientApi",
+            "MaxProgressPerCall": 1,
+            "MetricID": "games_played",
+            "TargetValue": 3,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 150
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      }
+    }
+  },
+  "Referral": {
+    "IsEnabled": true,
+    "ActivationReward": {
+      "Standard": {
+        "Entries": [
+          {
+            "Type": "VirtualCurrency",
+            "CurrencyID": "CO",
+            "Amount": 100
+          },
+          {
+            "Type": "Item",
+            "Amount": 1,
+            "CatalogID": "Item",
+            "ItemID": "health_potion"
+          }
+        ]
+      }
+    },
+    "InviteRewards": {
+      "invite_1": {
+        "MilestoneID": "invite_1",
+        "DisplayName": "First friend",
+        "RequiredProgress": 1,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "GE",
+                "Amount": 10
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      },
+      "invite_3": {
+        "MilestoneID": "invite_3",
+        "DisplayName": "Three friends",
+        "RequiredProgress": 3,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "CO",
+                "Amount": 300
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      },
+      "invite_5": {
+        "MilestoneID": "invite_5",
+        "DisplayName": "Five friends",
+        "RequiredProgress": 5,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "Item",
+                "Amount": 2,
+                "CatalogID": "Item",
+                "ItemID": "xp_scroll"
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      }
+    }
+  },
+  "Mailbox": {
+    "Enabled": true,
+    "DefaultLanguage": "en",
+    "Templates": {
+      "welcome": {
+        "Texts": {
+          "en": {
+            "Subject": "Welcome!",
+            "Body": "Thanks for playing. Here is a little something for the start."
+          },
+          "ru": {
+            "Subject": "Добро пожаловать!",
+            "Body": "Спасибо, что играете. Небольшой подарок для старта."
+          }
+        },
+        "Category": "System",
+        "Link": {
+          "FeatureID": "store"
+        },
+        "SenderName": "Game team"
+      }
+    },
+    "Gifts": {
+      "Social": {
+        "coins": {
+          "Grant": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "CO",
+                "Amount": 20
+              }
+            ]
+          },
+          "SendLimit": 20,
+          "ReceiveLimit": 20
+        }
+      },
+      "Transfer": {
+        "Enabled": true,
+        "AllowedResources": [
+          {
+            "Type": "VirtualCurrency",
+            "CurrencyID": "CO",
+            "MaxAmountPerGift": 500
+          },
+          {
+            "Type": "Item",
+            "CatalogID": "Item",
+            "ItemID": "health_potion",
+            "MaxAmountPerGift": 5
+          }
+        ],
+        "MaxEntriesPerGift": 2,
+        "SendLimit": 5,
+        "ReceiveLimit": 10,
+        "MinFriendshipHours": 24,
+        "ExpirationDays": 7
+      }
+    }
+  },
+  "ID": "1ZPS8DLV_PublicConfiguration",
+  "TitleID": "1ZPS8DLV",
+  "CreatedAt": "2026-10-07T14:00:07.876Z",
+  "UpdatedAt": "2026-10-07T14:48:38.911Z"
+}

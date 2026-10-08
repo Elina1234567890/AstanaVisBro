@@ -1,0 +1,1647 @@
+{
+  "Currency": {
+    "VirtualCurrencies": {
+      "CO": {
+        "CurrencyID": "CO",
+        "DisplayName": "Coins",
+        "Economy": {
+          "ValueInUSD": 0.001,
+          "InitialDeposit": 1000,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Hidden"
+      },
+      "GE": {
+        "CurrencyID": "GE",
+        "DisplayName": "Gems",
+        "Economy": {
+          "ValueInUSD": 0.01,
+          "InitialDeposit": 50,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Hidden"
+      },
+      "VIS": {
+        "CurrencyID": "VIS",
+        "DisplayName": "VIS",
+        "Economy": {
+          "ValueInUSD": 0.001,
+          "InitialDeposit": 1000,
+          "MinBalance": 0,
+          "MaxBalance": 9007199254740991
+        },
+        "Permissions": {
+          "IsTradable": false,
+          "IsPurchasable": false,
+          "IsRefundable": true
+        },
+        "Status": "Active"
+      }
+    },
+    "CryptoCurrencies": {},
+    "CryptoRewardsFromDeveloperShare": false,
+    "CryptoIouForScriptsAndAI": false,
+    "CryptoAutoRepayIouOnWithdrawal": true
+  },
+  "Item": {
+    "Catalogs": {
+      "Item": {
+        "Items": {
+          "health_potion": {
+            "ItemID": "health_potion",
+            "CatalogID": "Item",
+            "DisplayName": "Health Potion",
+            "Description": "Restores health.",
+            "Tags": [
+              "potion"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "mana_potion": {
+            "ItemID": "mana_potion",
+            "CatalogID": "Item",
+            "DisplayName": "Mana Potion",
+            "Description": "Restores mana.",
+            "Tags": [
+              "potion"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "xp_scroll": {
+            "ItemID": "xp_scroll",
+            "CatalogID": "Item",
+            "DisplayName": "Scroll of Wisdom",
+            "Description": "A scroll full of experience.",
+            "Tags": [
+              "scroll"
+            ],
+            "IsStackable": true,
+            "IsTradable": true,
+            "Weight": 1,
+            "Metadata": {
+              "RarityID": "Rare"
+            }
+          },
+          "iron_sword": {
+            "ItemID": "iron_sword",
+            "CatalogID": "Item",
+            "ItemClass": "Weapon",
+            "DisplayName": "Iron Sword",
+            "Description": "A reliable blade.",
+            "Tags": [
+              "weapon"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Attack": 8
+              },
+              "PercentBonuses": {},
+              "Power": 20
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Weapon"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Rare"
+            }
+          },
+          "oak_shield": {
+            "ItemID": "oak_shield",
+            "CatalogID": "Item",
+            "ItemClass": "Shield",
+            "DisplayName": "Oak Shield",
+            "Description": "Sturdy and light.",
+            "Tags": [
+              "armor"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Defense": 6
+              },
+              "PercentBonuses": {},
+              "Power": 12
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Offhand"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Common"
+            }
+          },
+          "golden_crown": {
+            "ItemID": "golden_crown",
+            "CatalogID": "Item",
+            "ItemClass": "Helmet",
+            "DisplayName": "Golden Crown",
+            "Description": "For the true champion.",
+            "Tags": [
+              "crown"
+            ],
+            "IsStackable": false,
+            "IsTradable": true,
+            "Weight": 1,
+            "Stats": {
+              "FlatBonuses": {
+                "Health": 40
+              },
+              "PercentBonuses": {},
+              "Power": 60
+            },
+            "Equipment": {
+              "MinCharacterLevel": 0,
+              "UseRequirements": {},
+              "AllowedCharacterIDs": [],
+              "AllowedSlotIDs": [
+                "Head"
+              ],
+              "IdleRateBonus": 0
+            },
+            "Upgrade": {
+              "MaxLevel": 5,
+              "PriceOptions": {
+                "default": {
+                  "OptionID": "default",
+                  "Cost": {
+                    "Standard": {
+                      "Entries": [
+                        {
+                          "Type": "VirtualCurrency",
+                          "CurrencyID": "CO",
+                          "Amount": 60
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "CostCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.5
+              },
+              "FlatBonusCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              },
+              "PowerCurve": {
+                "Shape": "PerStepRate",
+                "PerStepRate": 0.2
+              }
+            },
+            "Metadata": {
+              "RarityID": "Legendary"
+            }
+          },
+          "neko-01-t1": {
+            "ItemID": "neko-01-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-01",
+              "tier:1",
+              "rarity:common"
+            ],
+            "Description": "Mia collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "common",
+              "CollectionID": "astanavis-card-neko-01",
+              "ImagePath": "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/mia-ordinary.png",
+              "CharacterName": "Mia",
+              "CharacterID": "neko-01"
+            },
+            "DisplayName": "Mia · T1",
+            "CustomData": {
+              "ImagePath": "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/mia-ordinary.png",
+              "Tier": "1",
+              "CardRarity": "common",
+              "CharacterID": "neko-01",
+              "CharacterName": "Mia"
+            }
+          },
+          "neko-01-t2": {
+            "ItemID": "neko-01-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-01",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Mia collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-01",
+              "ImagePath": "",
+              "CharacterName": "Mia",
+              "CharacterID": "neko-01"
+            },
+            "DisplayName": "Mia · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-01",
+              "CharacterName": "Mia"
+            }
+          },
+          "neko-02-t1": {
+            "ItemID": "neko-02-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-02",
+              "tier:1",
+              "rarity:rare"
+            ],
+            "Description": "Akira collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "rare",
+              "CollectionID": "astanavis-card-neko-02",
+              "ImagePath": "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/akira-ordinary.png",
+              "CharacterName": "Akira",
+              "CharacterID": "neko-02"
+            },
+            "DisplayName": "Akira · T1",
+            "CustomData": {
+              "ImagePath": "https://cloud.idosgames.com/drive/img/1ZPS8DLV/other/akira-ordinary.png",
+              "Tier": "1",
+              "CardRarity": "rare",
+              "CharacterID": "neko-02",
+              "CharacterName": "Akira"
+            }
+          },
+          "neko-02-t2": {
+            "ItemID": "neko-02-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-02",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Akira collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-02",
+              "ImagePath": "",
+              "CharacterName": "Akira",
+              "CharacterID": "neko-02"
+            },
+            "DisplayName": "Akira · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-02",
+              "CharacterName": "Akira"
+            }
+          },
+          "neko-03-t1": {
+            "ItemID": "neko-03-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-03",
+              "tier:1",
+              "rarity:epic"
+            ],
+            "Description": "Yuna collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "epic",
+              "CollectionID": "astanavis-card-neko-03",
+              "ImagePath": "",
+              "CharacterName": "Yuna",
+              "CharacterID": "neko-03"
+            },
+            "DisplayName": "Yuna · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "epic",
+              "CharacterID": "neko-03",
+              "CharacterName": "Yuna"
+            }
+          },
+          "neko-03-t2": {
+            "ItemID": "neko-03-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-03",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Yuna collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-03",
+              "ImagePath": "",
+              "CharacterName": "Yuna",
+              "CharacterID": "neko-03"
+            },
+            "DisplayName": "Yuna · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-03",
+              "CharacterName": "Yuna"
+            }
+          },
+          "neko-04-t1": {
+            "ItemID": "neko-04-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-04",
+              "tier:1",
+              "rarity:common"
+            ],
+            "Description": "Julie collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "common",
+              "CollectionID": "astanavis-card-neko-04",
+              "ImagePath": "./cards/julie-ordinary.png",
+              "CharacterName": "Julie",
+              "CharacterID": "neko-04"
+            },
+            "DisplayName": "Julie · T1",
+            "CustomData": {
+              "ImagePath": "./cards/julie-ordinary.png",
+              "Tier": "1",
+              "CardRarity": "common",
+              "CharacterID": "neko-04",
+              "CharacterName": "Julie"
+            }
+          },
+          "neko-04-t2": {
+            "ItemID": "neko-04-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-04",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Julie collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-04",
+              "ImagePath": "",
+              "CharacterName": "Julie",
+              "CharacterID": "neko-04"
+            },
+            "DisplayName": "Julie · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-04",
+              "CharacterName": "Julie"
+            }
+          },
+          "neko-05-t1": {
+            "ItemID": "neko-05-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-05",
+              "tier:1",
+              "rarity:epic"
+            ],
+            "Description": "Sakura collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "epic",
+              "CollectionID": "astanavis-card-neko-05",
+              "ImagePath": "",
+              "CharacterName": "Sakura",
+              "CharacterID": "neko-05"
+            },
+            "DisplayName": "Sakura · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "epic",
+              "CharacterID": "neko-05",
+              "CharacterName": "Sakura"
+            }
+          },
+          "neko-05-t2": {
+            "ItemID": "neko-05-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-05",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Sakura collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-05",
+              "ImagePath": "",
+              "CharacterName": "Sakura",
+              "CharacterID": "neko-05"
+            },
+            "DisplayName": "Sakura · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-05",
+              "CharacterName": "Sakura"
+            }
+          },
+          "neko-06-t1": {
+            "ItemID": "neko-06-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-06",
+              "tier:1",
+              "rarity:rare"
+            ],
+            "Description": "Rin collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "rare",
+              "CollectionID": "astanavis-card-neko-06",
+              "ImagePath": "",
+              "CharacterName": "Rin",
+              "CharacterID": "neko-06"
+            },
+            "DisplayName": "Rin · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "rare",
+              "CharacterID": "neko-06",
+              "CharacterName": "Rin"
+            }
+          },
+          "neko-06-t2": {
+            "ItemID": "neko-06-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-06",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Rin collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-06",
+              "ImagePath": "",
+              "CharacterName": "Rin",
+              "CharacterID": "neko-06"
+            },
+            "DisplayName": "Rin · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-06",
+              "CharacterName": "Rin"
+            }
+          },
+          "neko-07-t1": {
+            "ItemID": "neko-07-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-07",
+              "tier:1",
+              "rarity:common"
+            ],
+            "Description": "Hana collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "common",
+              "CollectionID": "astanavis-card-neko-07",
+              "ImagePath": "",
+              "CharacterName": "Hana",
+              "CharacterID": "neko-07"
+            },
+            "DisplayName": "Hana · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "common",
+              "CharacterID": "neko-07",
+              "CharacterName": "Hana"
+            }
+          },
+          "neko-07-t2": {
+            "ItemID": "neko-07-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-07",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Hana collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-07",
+              "ImagePath": "",
+              "CharacterName": "Hana",
+              "CharacterID": "neko-07"
+            },
+            "DisplayName": "Hana · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-07",
+              "CharacterName": "Hana"
+            }
+          },
+          "neko-08-t1": {
+            "ItemID": "neko-08-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-08",
+              "tier:1",
+              "rarity:rare"
+            ],
+            "Description": "Naomi collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "rare",
+              "CollectionID": "astanavis-card-neko-08",
+              "ImagePath": "",
+              "CharacterName": "Naomi",
+              "CharacterID": "neko-08"
+            },
+            "DisplayName": "Naomi · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "rare",
+              "CharacterID": "neko-08",
+              "CharacterName": "Naomi"
+            }
+          },
+          "neko-08-t2": {
+            "ItemID": "neko-08-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-08",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Naomi collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-08",
+              "ImagePath": "",
+              "CharacterName": "Naomi",
+              "CharacterID": "neko-08"
+            },
+            "DisplayName": "Naomi · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-08",
+              "CharacterName": "Naomi"
+            }
+          },
+          "neko-09-t1": {
+            "ItemID": "neko-09-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-09",
+              "tier:1",
+              "rarity:epic"
+            ],
+            "Description": "Emi collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "epic",
+              "CollectionID": "astanavis-card-neko-09",
+              "ImagePath": "",
+              "CharacterName": "Emi",
+              "CharacterID": "neko-09"
+            },
+            "DisplayName": "Emi · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "epic",
+              "CharacterID": "neko-09",
+              "CharacterName": "Emi"
+            }
+          },
+          "neko-09-t2": {
+            "ItemID": "neko-09-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-09",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Emi collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-09",
+              "ImagePath": "",
+              "CharacterName": "Emi",
+              "CharacterID": "neko-09"
+            },
+            "DisplayName": "Emi · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-09",
+              "CharacterName": "Emi"
+            }
+          },
+          "neko-10-t1": {
+            "ItemID": "neko-10-t1",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-10",
+              "tier:1",
+              "rarity:legendary"
+            ],
+            "Description": "Kira collectible card, Tier 1.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-1",
+              "Tier": 1,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-10",
+              "ImagePath": "",
+              "CharacterName": "Kira",
+              "CharacterID": "neko-10"
+            },
+            "DisplayName": "Kira · T1",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "1",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-10",
+              "CharacterName": "Kira"
+            }
+          },
+          "neko-10-t2": {
+            "ItemID": "neko-10-t2",
+            "Weight": 1,
+            "IsStackable": true,
+            "CatalogID": "Item",
+            "IsTradable": true,
+            "Tags": [
+              "astanavis-card",
+              "character:neko-10",
+              "tier:2",
+              "rarity:legendary"
+            ],
+            "Description": "Kira collectible card, Tier 2.",
+            "Metadata": {
+              "RarityID": "astanavis-tier-2",
+              "Tier": 2,
+              "CardRarity": "legendary",
+              "CollectionID": "astanavis-card-neko-10",
+              "ImagePath": "",
+              "CharacterName": "Kira",
+              "CharacterID": "neko-10"
+            },
+            "DisplayName": "Kira · T2",
+            "CustomData": {
+              "ImagePath": "",
+              "Tier": "2",
+              "CardRarity": "legendary",
+              "CharacterID": "neko-10",
+              "CharacterName": "Kira"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Craft": {
+    "Definitions": {
+      "merge-neko-01-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-01",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-01-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-02-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-02",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-02-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-03-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-03",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-03-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-04-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-04",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-04-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-05-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-05",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-05-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-06-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-06",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-06-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-07-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-07",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-07-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-08-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-08",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-08-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-09-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-09",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-09-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      },
+      "merge-neko-10-t1-t2": {
+        "Type": "TradeUpCollection",
+        "CollectionID": "astanavis-card-neko-10",
+        "CatalogID": "Item",
+        "PriceOptions": {},
+        "RequiredItemCount": 5,
+        "CraftID": "merge-neko-10-t1-t2",
+        "OutputLevelMode": "None",
+        "InputRarityID": "astanavis-tier-1",
+        "OutputRarityID": "astanavis-tier-2"
+      }
+    }
+  },
+  "Lootbox": {
+    "Definitions": {
+      "neko-pack": {
+        "LootboxID": "neko-pack",
+        "DisplayName": "NEKO PACK",
+        "Description": "One random Tier 1 Neko card.",
+        "MaxOpenCount": 1,
+        "PriceOptions": {
+          "vis": {
+            "OptionID": "vis",
+            "Name": "100 VIS",
+            "Cost": {
+              "Standard": {
+                "Entries": [
+                  {
+                    "Type": "VirtualCurrency",
+                    "CurrencyID": "VIS",
+                    "Amount": 100
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "RewardSlots": [
+          {
+            "SlotID": "neko-card",
+            "MinRolls": 1,
+            "MaxRolls": 1,
+            "Pool": [
+              {
+                "Weight": 2000,
+                "Reward": {
+                  "Standard": {
+                    "Entries": [
+                      {
+                        "CatalogID": "Item",
+                        "Type": "Item",
+                        "ItemID": "neko-04-t1",
+                        "Amount": 1
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Collection": {
+    "Collections": {
+      "catgirls": {
+        "CollectionID": "catgirls",
+        "DisplayName": "Neko Stars",
+        "Description": "Коллекция анимешных кошкодевочек. Изображения будут добавлены автором проекта.",
+        "Sets": [
+          {
+            "SetID": "first-meet",
+            "DisplayName": "Первая встреча",
+            "SortOrder": 1,
+            "Collectibles": [
+              {
+                "CollectibleID": "neko-01",
+                "DisplayName": "Кошкодевочка 01",
+                "Rarity": 1,
+                "HasSpecialVersion": false,
+                "SortOrder": 1
+              },
+              {
+                "CollectibleID": "neko-02",
+                "DisplayName": "Кошкодевочка 02",
+                "Rarity": 1,
+                "HasSpecialVersion": false,
+                "SortOrder": 2
+              },
+              {
+                "CollectibleID": "neko-03",
+                "DisplayName": "Кошкодевочка 03",
+                "Rarity": 2,
+                "HasSpecialVersion": false,
+                "SortOrder": 3
+              },
+              {
+                "CollectibleID": "neko-04",
+                "DisplayName": "Кошкодевочка 04",
+                "Rarity": 2,
+                "HasSpecialVersion": false,
+                "SortOrder": 4
+              },
+              {
+                "CollectibleID": "neko-05",
+                "DisplayName": "Кошкодевочка 05",
+                "Rarity": 3,
+                "HasSpecialVersion": false,
+                "SortOrder": 5
+              },
+              {
+                "CollectibleID": "neko-06",
+                "DisplayName": "Кошкодевочка 06",
+                "Rarity": 3,
+                "HasSpecialVersion": false,
+                "SortOrder": 6
+              }
+            ],
+            "SetCompletionReward": {
+              "Standard": {
+                "Entries": [
+                  {
+                    "Type": "VirtualCurrency",
+                    "CurrencyID": "VIS",
+                    "Amount": 200
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "GrandPrize": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "VIS",
+                "Amount": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    "PackTypes": {
+      "neko-standard": {
+        "PackTypeID": "neko-standard",
+        "MaxOpenCount": 10,
+        "PriceOptions": {
+          "vis": {
+            "Cost": {
+              "Standard": {
+                "Entries": [
+                  {
+                    "Type": "VirtualCurrency",
+                    "CurrencyID": "VIS",
+                    "Amount": 100
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "DisplayName": "Neko Pack",
+        "CollectibleCount": 3,
+        "GuaranteedMinRarity": 1,
+        "GuaranteeMaxRarity": false,
+        "RarityWeights": {
+          "1": 70,
+          "2": 25,
+          "3": 5
+        },
+        "ColorTier": 1
+      }
+    },
+    "CollectionChests": [],
+    "Settings": {
+      "MaxPackOpenCount": 10,
+      "MaxChestOpenCount": 10
+    },
+    "DuplicateConversions": [
+      {
+        "Rarity": 1,
+        "CollectionCurrencyGranted": 1
+      },
+      {
+        "Rarity": 2,
+        "CollectionCurrencyGranted": 3
+      },
+      {
+        "Rarity": 3,
+        "CollectionCurrencyGranted": 10
+      }
+    ],
+    "DailyTradeLimit": 5,
+    "SpecialTradeEvents": []
+  },
+  "Store": {
+    "Stores": {
+      "main": {
+        "StoreID": "main",
+        "Identity": {
+          "DisplayName": "AstanaVis Store",
+          "Description": "Магазин AstanaVis Bro"
+        },
+        "Layout": {
+          "Sections": {
+            "daily": {
+              "Identity": {
+                "DisplayName": "Ежедневное",
+                "Description": "Ежедневные предложения",
+                "SortOrder": 1
+              },
+              "Slots": {
+                "daily-vis": {
+                  "Identity": {
+                    "SortOrder": 1
+                  },
+                  "Rotation": {
+                    "Mode": "Fixed",
+                    "OfferID": "daily-vis"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "StoreOffers": {
+      "daily-vis": {
+        "OfferID": "daily-vis",
+        "Identity": {
+          "DisplayName": "Ежедневные VIS",
+          "Description": "Получите 100 VIS один раз в день.",
+          "SortOrder": 1,
+          "Tags": [
+            "daily",
+            "vis"
+          ]
+        },
+        "Pricing": {
+          "Options": {
+            "free": {}
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "VIS",
+                  "Amount": 100
+                }
+              ]
+            }
+          }
+        },
+        "Availability": {
+          "Limits": {
+            "TotalCap": 0,
+            "DailyCap": 1,
+            "DailyWeightCap": 0,
+            "PerActivationCap": 0,
+            "CooldownSeconds": 0,
+            "MaxPerWindow": 0,
+            "WindowSeconds": 0
+          }
+        }
+      }
+    }
+  },
+  "Quest": {
+    "Cycles": {
+      "daily": {
+        "CycleID": "daily",
+        "DisplayName": "Daily quests",
+        "Schedule": {
+          "Mode": "Cyclic",
+          "IsActive": true,
+          "Cyclic": {
+            "Reset": "Daily",
+            "IntervalSeconds": 86400,
+            "PauseBetweenCyclesSec": 0,
+            "ClaimGraceHours": 0
+          }
+        },
+        "Milestones": {}
+      }
+    },
+    "Quests": {
+      "daily_visit": {
+        "QuestID": "daily_visit",
+        "Identity": {
+          "DisplayName": "Log in today"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "visit": {
+            "ObjectiveID": "visit",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "DailyLogin",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": false,
+                "OutcomeFilter": [],
+                "Params": {}
+              }
+            ],
+            "TargetValue": 1,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 20
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_earn": {
+        "QuestID": "daily_earn",
+        "Identity": {
+          "DisplayName": "Earn 100 coins"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "earn": {
+            "ObjectiveID": "earn",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "CurrencyEarned",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": true,
+                "OutcomeFilter": [],
+                "Params": {
+                  "CurrencyID": "CO"
+                }
+              }
+            ],
+            "TargetValue": 100,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 50
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_spend": {
+        "QuestID": "daily_spend",
+        "Identity": {
+          "DisplayName": "Spend 200 coins"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "spend": {
+            "ObjectiveID": "spend",
+            "Source": "SystemEvent",
+            "MaxProgressPerCall": 0,
+            "Triggers": [
+              {
+                "SourceType": "CurrencySpent",
+                "BaseWeight": 1,
+                "ScaleWithRollMultiplier": true,
+                "OutcomeFilter": [],
+                "Params": {
+                  "CurrencyID": "CO"
+                }
+              }
+            ],
+            "TargetValue": 200,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "Item",
+                  "Amount": 2,
+                  "CatalogID": "Item",
+                  "ItemID": "health_potion"
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      },
+      "daily_play": {
+        "QuestID": "daily_play",
+        "Identity": {
+          "DisplayName": "Play the mini-game 3 times"
+        },
+        "Linking": {
+          "CycleIDs": [
+            "daily"
+          ],
+          "RequiredQuestIDs": [],
+          "PrerequisiteMode": "BlockProgressAndClaim"
+        },
+        "Availability": {
+          "AccrueProgressWhenLocked": false
+        },
+        "Objectives": {
+          "play": {
+            "ObjectiveID": "play",
+            "Source": "ClientApi",
+            "MaxProgressPerCall": 1,
+            "MetricID": "games_played",
+            "TargetValue": 3,
+            "AggregationMethod": "Sum"
+          }
+        },
+        "Reward": {
+          "Grant": {
+            "Standard": {
+              "Entries": [
+                {
+                  "Type": "VirtualCurrency",
+                  "CurrencyID": "CO",
+                  "Amount": 150
+                }
+              ]
+            }
+          },
+          "PointsReward": 0
+        }
+      }
+    }
+  },
+  "Referral": {
+    "IsEnabled": true,
+    "ActivationReward": {
+      "Standard": {
+        "Entries": [
+          {
+            "Type": "VirtualCurrency",
+            "CurrencyID": "CO",
+            "Amount": 100
+          },
+          {
+            "Type": "Item",
+            "Amount": 1,
+            "CatalogID": "Item",
+            "ItemID": "health_potion"
+          }
+        ]
+      }
+    },
+    "InviteRewards": {
+      "invite_1": {
+        "MilestoneID": "invite_1",
+        "DisplayName": "First friend",
+        "RequiredProgress": 1,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "GE",
+                "Amount": 10
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      },
+      "invite_3": {
+        "MilestoneID": "invite_3",
+        "DisplayName": "Three friends",
+        "RequiredProgress": 3,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "CO",
+                "Amount": 300
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      },
+      "invite_5": {
+        "MilestoneID": "invite_5",
+        "DisplayName": "Five friends",
+        "RequiredProgress": 5,
+        "Rewards": {
+          "Standard": {
+            "Entries": [
+              {
+                "Type": "Item",
+                "Amount": 2,
+                "CatalogID": "Item",
+                "ItemID": "xp_scroll"
+              }
+            ]
+          }
+        },
+        "SortOrder": 0,
+        "IsFeatured": false
+      }
+    }
+  },
+  "Mailbox": {
+    "Enabled": true,
+    "DefaultLanguage": "en",
+    "Templates": {
+      "welcome": {
+        "Texts": {
+          "en": {
+            "Subject": "Welcome!",
+            "Body": "Thanks for playing. Here is a little something for the start."
+          },
+          "ru": {
+            "Subject": "Добро пожаловать!",
+            "Body": "Спасибо, что играете. Небольшой подарок для старта."
+          }
+        },
+        "Category": "System",
+        "Link": {
+          "FeatureID": "store"
+        },
+        "SenderName": "Game team"
+      }
+    },
+    "Gifts": {
+      "Social": {
+        "coins": {
+          "Grant": {
+            "Entries": [
+              {
+                "Type": "VirtualCurrency",
+                "CurrencyID": "CO",
+                "Amount": 20
+              }
+            ]
+          },
+          "SendLimit": 20,
+          "ReceiveLimit": 20
+        }
+      },
+      "Transfer": {
+        "Enabled": true,
+        "AllowedResources": [
+          {
+            "Type": "VirtualCurrency",
+            "CurrencyID": "CO",
+            "MaxAmountPerGift": 500
+          },
+          {
+            "Type": "Item",
+            "CatalogID": "Item",
+            "ItemID": "health_potion",
+            "MaxAmountPerGift": 5
+          }
+        ],
+        "MaxEntriesPerGift": 2,
+        "SendLimit": 5,
+        "ReceiveLimit": 10,
+        "MinFriendshipHours": 24,
+        "ExpirationDays": 7
+      }
+    }
+  },
+  "ID": "1ZPS8DLV-DEV_PublicConfiguration",
+  "TitleID": "1ZPS8DLV-DEV",
+  "CreatedAt": "2026-10-07T14:00:07.919Z",
+  "UpdatedAt": "2026-10-07T14:48:38.911Z"
+}

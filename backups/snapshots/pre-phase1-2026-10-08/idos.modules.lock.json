@@ -1,0 +1,108 @@
+{
+  "_comment": "Generated and maintained by the iDos Games platform: which modules were installed from the catalog, their versions, and file fingerprints at install time. Used to protect your edits when a module is updated. Do not edit.",
+  "lockVersion": 1,
+  "modules": {
+    "friends": {
+      "catalogId": "friends",
+      "author": "iDos Games",
+      "version": "0.1.1",
+      "contentHash": "baae3cd9af04f1f2286605348c8eed3570add2eec30357f0b0188d32a63cbe3d",
+      "files": {
+        "FriendsScreen.tsx": "e438ab68e39a27e1d748f7b41e0fce51da654b771d8cc3fc3a0bfbfa3c69a9ce",
+        "i18n.ts": "27ca45f4f7f8b4eeb2b512536fc97ff43cfa4bfc2537a1871086bfe02e40d6ed",
+        "index.ts": "8d8e7a5c6b03b2957df8b97e2d418ae2fb8fd6a03d1ed8d750decafe05d25ee5",
+        "model.ts": "dc254dc86b11876794face4c828d089dd9e8b83e7bf8f203f89d2dcff00f7114",
+        "module.meta.json": "587c86ea617ce5feef6f7dba1130fb6e2e456d62b3a030f9b37761f1941a8951",
+        "module.ts": "fb503758fe9f97c6ae114b0a304e4e0faa9828b4e6cd06b80465c8142003ff95"
+      }
+    },
+    "inventory": {
+      "catalogId": "inventory",
+      "author": "iDos Games",
+      "version": "0.1.0",
+      "contentHash": "71f41012c37839b7d4e94c6ed3759118990408da9615743bd27282ca137e49ab",
+      "files": {
+        "InventoryScreen.tsx": "9a5e43d1a837b5f859a2a055805ca958a3ce80e74f2ad0cb6b8cdc1253479642",
+        "i18n.ts": "9cb87377b0e3454fab148941e6eb59ad26b10eef5b1bdfd63e22cc0586ef4c1c",
+        "index.ts": "39766558b2022fc17a426a72ef876499f6ff814536e414f182efae8d5d1f6985",
+        "model.ts": "77bf6f14afa60556b315a96e794d117496be1c14a9514f23719c2beea13039a1",
+        "module.meta.json": "e28f6d1661f2c960a8f74bc87f1b8bd28809a6b21f3ab34d8c0020ba05943dfe",
+        "module.ts": "364eda1ca197a566b17187205fc82754215516b5bc768156c355bf29ed986895"
+      }
+    },
+    "invite": {
+      "catalogId": "invite",
+      "author": "iDos Games",
+      "version": "0.1.1",
+      "contentHash": "82dacfca9f3a30242dde66099cdae41822d569ca05293312d681d41c9dafb5dc",
+      "files": {
+        "ReferralScreen.tsx": "e3cfa40eef4737285a58067b5e41e96db1c7321663f33f8f0f0035f176de6a93",
+        "i18n.ts": "bd2401280d0b7dca7b704b688502d8e0090304f44216f9f5627240ba2461574d",
+        "index.ts": "8cae2e8a8c4f9d010eef3fe6d455d48aa1ba7b1b39c197cdd1e518626bc130f6",
+        "model.ts": "627719bbed01fab20ffddba0cf8e535160cc29965d2c1197d57cf0c5776357b3",
+        "module.meta.json": "7a406e2ac097edcd5fb3a69096144d2d18b6731cdd95c4ef06c88bbba0fbbe75",
+        "module.ts": "c26a1bea47e17a593368d0daf285736e2968b924da4624d15c82df8cbf71fed2",
+        "title-seed.json": "6a48d286eb47ccad6d5f045ffec8f719a8b8c8fd8ea70b960407bccd144a43b0"
+      }
+    },
+    "mailbox": {
+      "catalogId": "mailbox",
+      "author": "iDos Games",
+      "version": "0.1.0",
+      "contentHash": "e661b103bce6de42e67ad85a98b0508b7c8b25a9ae972ebbdcc4a38cebc6218e",
+      "files": {
+        "MailboxScreen.tsx": "9adfab70ed24683fb73d6127c3b5454b31b12d4e6ebe409da73c58fb25d035b8",
+        "i18n.ts": "f207a5925b07df4f7abb317459269ea0802942357266b56ed9726d32bc14b584",
+        "index.ts": "cb3e210600124a347f497fca9362200cf8f400ba88dbff713c9fff2bfc719c1c",
+        "model.ts": "9b0c4e6739471aa9f8921dcf7b5ad9d4def8017cc88fe6aa5ce097d1039277c4",
+        "module.meta.json": "701da658eb6430886c492bfd894400e1cf939c35aa61eb418312e661e5fdf934",
+        "module.ts": "8e6b080700aed073d2b3344ca5079f0cd524f1dc0befd4e2fea831c6ae2ffff6",
+        "title-seed.json": "bedb85266a1a0bc8f4e2722ab1587676f9083390fd2718e00d15dfea6f5575a0"
+      }
+    },
+    "mini-game": {
+      "catalogId": "mini-game",
+      "author": "iDos Games",
+      "version": "0.1.1",
+      "contentHash": "eb39139d93bfb84e5a20d2485b081a264234452b5d90978fdf15b940cf3b7ac0",
+      "files": {
+        "MiniGame.tsx": "7ebe7c0e428d3a84c0b15f7815c347a873185d13ba104fadab34cd34b99d9f50",
+        "MiniGamePanel.tsx": "1212d25df41a295113613531a9010969edb77760ad0072b49255e17603cc7f28",
+        "i18n.ts": "5b9bb7a79e0bb96c9db158fda6abad1465ffcdfa1f270ca78a284542bc0ed941",
+        "index.ts": "18fbc7183ed95fb7ad7d0b22ce0085f811247b7395d032da2472bae4723fbe03",
+        "model.ts": "fed05aaf9aa7ea50d040f35e512c602fca21696064a38116f70af08bd337ec9c",
+        "module.meta.json": "8326724f5d883100bbd6b21b2da0e6e1a2e2fd488241c29ef8d7171931085508",
+        "module.ts": "024aabb92a2c6641fe326b8a75a6df467ef7fd4b374cee432909ac00e3df6369"
+      }
+    },
+    "profile": {
+      "catalogId": "profile",
+      "author": "iDos Games",
+      "version": "0.1.3",
+      "contentHash": "868e0639ef9ac1cbc88a506c3ecd81c481823c71c11004c25dfcce6dc8ba921d",
+      "files": {
+        "ProfileScreen.tsx": "2ba88215aa3e7e3d34e76f6be81f69b4253126d369d4053af5a5bdfa6e656b64",
+        "i18n.ts": "d1641cba6712714b63cecbfe7819667b04805144688236f9a11c08113fcc9629",
+        "index.ts": "ab250fb3ba78d8b115dee0b1d4efc5cbcf8c60bf06dd51226b5bd6dd22f4e58c",
+        "model.ts": "1ea3bb699689f2b641ca0d86e943489fe89f6291158c84bb7000208fcb1bb75d",
+        "module.meta.json": "ee4b411beadea58bb4f70b526ed971d9e670470c2977040660edf4a56cebb995",
+        "module.ts": "ed07e68b51c02e0c3d207163de7059c245193b7b24df26380c62ec484707b0d7"
+      }
+    },
+    "quests": {
+      "catalogId": "quests",
+      "author": "iDos Games",
+      "version": "0.1.0",
+      "contentHash": "d0bc1904a12546d45123d61f73855cc1503cf9f6be11a29c2eb250c834b85b2f",
+      "files": {
+        "QuestsScreen.tsx": "4818cc3970aaba7e1d5923ea2ab8f9837ddd9cd211bf8df753de351acc5f19f6",
+        "i18n.ts": "482e1885aaf96c1345c4534b4a943450faa9ba780d1ca3e28d77b348944120a9",
+        "index.ts": "5f7afd77ebed335d1fe9adac78967ade7a4770c4c44d0f42284c9447025642fc",
+        "model.ts": "a22d38dc88ac49b3659ca8b0c26287e3da4ae53b3e83cdadcd8f5dc97d5280ea",
+        "module.meta.json": "a2facd8f1059dba743edab7a66c82416574b67d8559574c4a842f84e0761ae69",
+        "module.ts": "33f9f09b9b3c0012a51294e556dc5511af1b46d55c94899568d2da3ab66219ec",
+        "title-seed.json": "da0319fd3d55a30951e787dc850dd1d36731c9bfe8dde8eff14c03d0a7a6b8b2"
+      }
+    }
+  }
+}

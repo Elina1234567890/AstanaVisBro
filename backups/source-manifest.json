@@ -1,0 +1,416 @@
+{
+  "titleID": "1ZPS8DLV",
+  "workspace": "DEV",
+  "source": "https://platform.idosgames.com/1ZPS8DLV/ai-coding",
+  "exportedAt": "2026-10-07T18:56:50.037Z",
+  "encoding": "UTF-8",
+  "method": "Editor select-all/copy; original text retained, clipboard line endings",
+  "fileCount": 81,
+  "files": [
+    {
+      "path": "docs/feature-history/README.md",
+      "bytes": 404,
+      "sha256": "dbf2f0aeaa7d3f1cd74d9f0610ef59fb92357b8ba81f9f2e05bdc609acf34ca2"
+    },
+    {
+      "path": "public/sw.js",
+      "bytes": 4658,
+      "sha256": "b98d4480c1cac4273bfd1a14d371bffd7753f03015a61addd2d22e7efd5ecb0c"
+    },
+    {
+      "path": "src/base/lobby/Account.tsx",
+      "bytes": 3934,
+      "sha256": "5a35a6767d18f81a4a71d19a7c9c25a920237bc052764b0b710a34e78f730c2e"
+    },
+    {
+      "path": "src/base/lobby/BackToLobby.tsx",
+      "bytes": 1507,
+      "sha256": "2c31fa57c36dc47661dea4cf1b3bfec020982650dc43a34e1fe59f659ea92281"
+    },
+    {
+      "path": "src/base/lobby/GameFrame.tsx",
+      "bytes": 4077,
+      "sha256": "d0542a3f9271b97ec8e508f989c652f511a91b9b2516d35b61d5af26fd10492f"
+    },
+    {
+      "path": "src/base/lobby/i18n.ts",
+      "bytes": 1277,
+      "sha256": "2b5acf4c536e7aaef3a9fde169672cb041cd714dfe8fad28c12dd2de1c612a5c"
+    },
+    {
+      "path": "src/base/lobby/Lobby.tsx",
+      "bytes": 15344,
+      "sha256": "b086e8fa87c0523ff873a448b61ee9f59e3eeead593ac2a7c60770db766c21c4"
+    },
+    {
+      "path": "src/base/lobby/model.ts",
+      "bytes": 3831,
+      "sha256": "6fd8823367a3f478e5667cd577d14555be90c41fd9662cd262c6705eff940096"
+    },
+    {
+      "path": "src/base/lobby/PlayScreen.tsx",
+      "bytes": 3869,
+      "sha256": "86aec2105081fd71e1061ee1c22ab71916b775b34226d9f60602f6fd667eaf9e"
+    },
+    {
+      "path": "src/base/lobby/WalletButton.tsx",
+      "bytes": 2655,
+      "sha256": "1bf699ad3b2798c776a92f83253bac90858f3274e862fafec650b6a8339239b9"
+    },
+    {
+      "path": "src/base/login/loginIcons.ts",
+      "bytes": 5052,
+      "sha256": "651dfa8108fbcaba4dcef9a29a247fe638f96fcd3aabbf3003997ba8ec856bea"
+    },
+    {
+      "path": "src/base/login/LoginScreen.tsx",
+      "bytes": 37216,
+      "sha256": "4949b9b0711985b9e587142e743be15dbee644ad391e9bc6161cfb793c15c1b3"
+    },
+    {
+      "path": "src/base/login/logo.ts",
+      "bytes": 8019,
+      "sha256": "0ec2f3bf650f44f89db06b4256154d28a130645fd5130a592eabe519e73f7151"
+    },
+    {
+      "path": "src/base/login/PlayAccessScreen.tsx",
+      "bytes": 1052,
+      "sha256": "f55b16088d535be82440ea087bc367c2f85e6907f7a778ffcf5531a1d63894d5"
+    },
+    {
+      "path": "src/base/app-config.ts",
+      "bytes": 1746,
+      "sha256": "755820ad6cf4a844718de2e0de8f8452e56ef3718231a0a2a06e5e404ba5ff41"
+    },
+    {
+      "path": "src/base/index.ts",
+      "bytes": 498,
+      "sha256": "f973d4e009c8e96224b05cc39372406acb3af30ac004531854b936d7bc22ad88"
+    },
+    {
+      "path": "src/base/module.ts",
+      "bytes": 8268,
+      "sha256": "a0b4ef085449b91b7b7c3c494484e920323f05a873e2c98e1f4f651c419968d9"
+    },
+    {
+      "path": "src/modules/friends/FriendsScreen.tsx",
+      "bytes": 21026,
+      "sha256": "11868dd26eabdd87668796e754c30eb3ba14647c1f4c60317ed598d896156b09"
+    },
+    {
+      "path": "src/modules/friends/i18n.ts",
+      "bytes": 3372,
+      "sha256": "6d5b1f3e898d2f12f6df6549e65c681edf2ad3c2c3561882e2b61bd270f03ae5"
+    },
+    {
+      "path": "src/modules/friends/index.ts",
+      "bytes": 188,
+      "sha256": "7bcaf02df124ae3177b48d8c284c40d90d662085208b87ef661fedab60713256"
+    },
+    {
+      "path": "src/modules/friends/model.ts",
+      "bytes": 3538,
+      "sha256": "9d219d916cb59679646d38b79753d9800987dfa58d9984b3b4224e2123de004c"
+    },
+    {
+      "path": "src/modules/friends/module.meta.json",
+      "bytes": 1578,
+      "sha256": "6ea9ae6ed534b6348816f05dda1a02119fd4ab1baec2f33c88e16799fafbec1b"
+    },
+    {
+      "path": "src/modules/friends/module.ts",
+      "bytes": 985,
+      "sha256": "9741b52befab206ac9a52caad0450bc1d61ef180245a166dd6bc4be6a917c482"
+    },
+    {
+      "path": "src/modules/inventory/i18n.ts",
+      "bytes": 1029,
+      "sha256": "8737d5a27429779fb109cb90b17b7bbea9d0810c5f48f89e9c77dbb0213eefbe"
+    },
+    {
+      "path": "src/modules/inventory/index.ts",
+      "bytes": 252,
+      "sha256": "ab49cfd5a63d1e48ff2b45ce29449acabdfc367d8e48e66c865d29e892d25cc1"
+    },
+    {
+      "path": "src/modules/inventory/InventoryScreen.tsx",
+      "bytes": 7098,
+      "sha256": "6b66c6243f20841d7aafb605ea902b8f95feb47dc0e4af13ede0b0930d3cebd8"
+    },
+    {
+      "path": "src/modules/inventory/model.ts",
+      "bytes": 3487,
+      "sha256": "be233c0f32b529366f7c6792f02ee363633fc0a6fbe9a70cdc34f471b2bc584b"
+    },
+    {
+      "path": "src/modules/inventory/module.meta.json",
+      "bytes": 1183,
+      "sha256": "2b27fe5f178b432ab948446dafa2a0fe57ef0dfb95cc46bcfc40be29bbbc79af"
+    },
+    {
+      "path": "src/modules/inventory/module.ts",
+      "bytes": 875,
+      "sha256": "a10516592e67f2d46efef03987b9caf1a65566f769437c56fb0629fb16fdc621"
+    },
+    {
+      "path": "src/modules/invite/i18n.ts",
+      "bytes": 1855,
+      "sha256": "ed43acd95228e23b54b241521340d0b863f8bca235b53d240678fedcdc924f7f"
+    },
+    {
+      "path": "src/modules/invite/index.ts",
+      "bytes": 185,
+      "sha256": "fbea244d6f76a83421646389dd40235eda1194bb10a1c19596ac591c10173570"
+    },
+    {
+      "path": "src/modules/invite/model.ts",
+      "bytes": 2829,
+      "sha256": "93d1db638a22e1243e27cfcde4f3a8ac303e3d368787f564e01bf01e2f70ce93"
+    },
+    {
+      "path": "src/modules/invite/module.meta.json",
+      "bytes": 1596,
+      "sha256": "12b3715d614f0c2d1b4439de75142673961925f40ecac89216a80092e5ffd8d9"
+    },
+    {
+      "path": "src/modules/invite/module.ts",
+      "bytes": 1552,
+      "sha256": "bb0ceee343510bd1b1ab40e0f562bf94f261e0457e6cade5476b5f0919d77406"
+    },
+    {
+      "path": "src/modules/invite/ReferralScreen.tsx",
+      "bytes": 13088,
+      "sha256": "c2db02b2a13cffa11f7825147f6e71be672a5531a0096ff68c9255109b826eba"
+    },
+    {
+      "path": "src/modules/invite/title-seed.json",
+      "bytes": 2061,
+      "sha256": "be011bf642802a8ca0168fdc940df8a030f98c98fcb7772dd58aad2fe51ab6c2"
+    },
+    {
+      "path": "src/modules/mailbox/i18n.ts",
+      "bytes": 10378,
+      "sha256": "eb078d1e5a6c4494fb034e5e58a383c167f541a821cfdf2b4d3cf04853ff21dd"
+    },
+    {
+      "path": "src/modules/mailbox/index.ts",
+      "bytes": 199,
+      "sha256": "1d99e55e1f595ea61b03eb9040d90427db05f2cc98b491442e3039fced4f3ab1"
+    },
+    {
+      "path": "src/modules/mailbox/MailboxScreen.tsx",
+      "bytes": 39195,
+      "sha256": "0a0a33fee202ad5765050042f53d2758f7aad5c3acddc3f43c0fd8f7b633dc79"
+    },
+    {
+      "path": "src/modules/mailbox/model.ts",
+      "bytes": 8750,
+      "sha256": "2184059bc3a617835709274190553875567a126f91c8abcc69aa829fe94d8111"
+    },
+    {
+      "path": "src/modules/mailbox/module.meta.json",
+      "bytes": 1936,
+      "sha256": "3bc8dcfbf2eb5bd72ae68396192c2a29b9b0f11c9b761491649b53bc62c3b94b"
+    },
+    {
+      "path": "src/modules/mailbox/module.ts",
+      "bytes": 1599,
+      "sha256": "712e1986ff7eb5e2b54b572ba3036acd451fef8054a5dca603eead974c8e89d6"
+    },
+    {
+      "path": "src/modules/mailbox/title-seed.json",
+      "bytes": 1791,
+      "sha256": "82cde2e6579f1b85ad2062ad83e76b2004cdadbeb976efd668f8c1df33051605"
+    },
+    {
+      "path": "src/modules/mini-game/i18n.ts",
+      "bytes": 1133,
+      "sha256": "451d216f0e59f2334f0c04cdaf9fa85ce166c5a6bc60ee9af71a34b84922344a"
+    },
+    {
+      "path": "src/modules/mini-game/index.ts",
+      "bytes": 510,
+      "sha256": "e66fe0d38965f12a35fae7716d6159a354ababa13e7ca5cc3c74f5c27c7410d3"
+    },
+    {
+      "path": "src/modules/mini-game/MiniGame.tsx",
+      "bytes": 5620,
+      "sha256": "0c376827f3bff95c9e3f0d53380a7597249b764846530ebd4a8d6048e51f9291"
+    },
+    {
+      "path": "src/modules/mini-game/MiniGamePanel.tsx",
+      "bytes": 7627,
+      "sha256": "dab459926da9f9aba5cd09ea90d19faaf696b9e66293e41dbc497ecc5dd902a8"
+    },
+    {
+      "path": "src/modules/mini-game/model.ts",
+      "bytes": 4648,
+      "sha256": "823639456dd6ddebdf3660274a8376adc0c94da35e3d5374f39beb069c3fae7c"
+    },
+    {
+      "path": "src/modules/mini-game/module.meta.json",
+      "bytes": 1180,
+      "sha256": "2fe55b75d76b70055272bfd31951b393dea9839ab798bbb4ff46b14b6c9d6fea"
+    },
+    {
+      "path": "src/modules/mini-game/module.ts",
+      "bytes": 1164,
+      "sha256": "bea96ba0d4a56cc706d1b283c10b9db7c34a876f9c707032b57f1469405a754b"
+    },
+    {
+      "path": "src/modules/profile/i18n.ts",
+      "bytes": 2984,
+      "sha256": "ec5bbcdbc0fc73b886517ba88bab40976c1b2885bf61a6828e331bc3d99dd22a"
+    },
+    {
+      "path": "src/modules/profile/index.ts",
+      "bytes": 157,
+      "sha256": "2a6615f1126cc6bac166d84ccbd23a5dd722099fc1831c263b65418e6eab5296"
+    },
+    {
+      "path": "src/modules/profile/model.ts",
+      "bytes": 2001,
+      "sha256": "ad9476df4bf97671bc9cbf3225dc336acd04fd899e273acfd4e680575bc1ddc1"
+    },
+    {
+      "path": "src/modules/profile/module.meta.json",
+      "bytes": 1255,
+      "sha256": "be78a7ebd34f23c39728083bfe6fab7b6549d836b0a90141b7678eb5c4931e1a"
+    },
+    {
+      "path": "src/modules/profile/module.ts",
+      "bytes": 765,
+      "sha256": "26fad40e3f4bb803f4bd9179cf88bbd466375b9c8307896e0a78a9de96977f93"
+    },
+    {
+      "path": "src/modules/profile/ProfileScreen.tsx",
+      "bytes": 14348,
+      "sha256": "4215677528897a348da7427b7d52fa4390cbd626078de8a96ef51b6db27f98d6"
+    },
+    {
+      "path": "src/modules/quests/i18n.ts",
+      "bytes": 852,
+      "sha256": "e32c6b00cc3f265a5856e556b89d96e322c7d7c1932ec66bb7ccd8b69c333efd"
+    },
+    {
+      "path": "src/modules/quests/index.ts",
+      "bytes": 193,
+      "sha256": "d82bdcce2c96ec2b2ab842cb609f455339161bcf4699b37ac1ee5dd29af4cf18"
+    },
+    {
+      "path": "src/modules/quests/model.ts",
+      "bytes": 8389,
+      "sha256": "a899f7b7cffd8ce8d1bf4bce6614fa46ac6938d78ebff26db493c2ea4ec1a19d"
+    },
+    {
+      "path": "src/modules/quests/module.meta.json",
+      "bytes": 1125,
+      "sha256": "0487e241738603309692bdfa3b84937e82de779b815839552b835cc80fe178b7"
+    },
+    {
+      "path": "src/modules/quests/module.ts",
+      "bytes": 1344,
+      "sha256": "cde8a1464ccd86977abbb35e8685cb444f1af9b1232cf1fd4aa4f956297f693d"
+    },
+    {
+      "path": "src/modules/quests/QuestsScreen.tsx",
+      "bytes": 14674,
+      "sha256": "5e54ab3ce13f404be3627bff0bc6c8a0abb56e317d1aff1a68390fbd2774730b"
+    },
+    {
+      "path": "src/modules/quests/title-seed.json",
+      "bytes": 5645,
+      "sha256": "ba394ec39ada81aa893027a08191099f5d3e3acb6007b284a841b1a68b257c09"
+    },
+    {
+      "path": "src/app.config.ts",
+      "bytes": 1036,
+      "sha256": "db94e974030c5ddc96eeaecfdd2d7164dde654c1710d59f60d720bcfc29c9db1"
+    },
+    {
+      "path": "src/config.ts",
+      "bytes": 5153,
+      "sha256": "ddf01a6c812cd06a895b0b8a107e5d3050e693e3ce33805551d16243648ec146"
+    },
+    {
+      "path": "src/env.ts",
+      "bytes": 819,
+      "sha256": "442e4e70a5b9b4a303aed3a7d35ea9c2006480553d74c4a545bcb8845b996b18"
+    },
+    {
+      "path": "src/idos.title.ts",
+      "bytes": 1242,
+      "sha256": "be3d00dc7cf1d89c0d2d7ed8f219724088243784fae43e4e07ed061f6d617d1f"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 2904,
+      "sha256": "96fce722dd32e60e987e7eaa915be94ef63a321ca00ca6f99b56ac19195efd27"
+    },
+    {
+      "path": "src/modules.ts",
+      "bytes": 590,
+      "sha256": "343936dcc1874fe8224a4ced7d65f0e2c591d289ff48847c489767b2a7ef2066"
+    },
+    {
+      "path": "src/previewProbe.ts",
+      "bytes": 78563,
+      "sha256": "603fdc390233a2ca3c8a270c967abee98d7597133803f0a1f6e6e89848cb57d6"
+    },
+    {
+      "path": "src/ui.config.ts",
+      "bytes": 2506,
+      "sha256": "1200c04bf82c1159318689366369eef79c52fe6d8392f6619ba558291e43fab7"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 39,
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92"
+    },
+    {
+      "path": "src/walletLogin.tsx",
+      "bytes": 3596,
+      "sha256": "62dc66c9c62c6c6a69cc1e270f0980c632abd0bdb42f1144e78eae33c6f36a16"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 337,
+      "sha256": "b897db84031defed06577c4777683a441b7b2d3e188acd4064df34af49c11f3f"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 165,
+      "sha256": "759c63a09ce7e1c6564cc9623c5ee304a18bd3a9c4904b0ae914980be1bdf8cb"
+    },
+    {
+      "path": "IDOS.md",
+      "bytes": 9385,
+      "sha256": "f37a55a01b75c769add953900385f7f1baa698301e338185f5d30450be1ee6a5"
+    },
+    {
+      "path": "idos.modules.lock.json",
+      "bytes": 6147,
+      "sha256": "c67d50674d4b76255bc46ec8562e6045752c99d506fe542fd633e05d8ca426fa"
+    },
+    {
+      "path": "index.html",
+      "bytes": 574,
+      "sha256": "5e4b4ff5ae688c5a11ee720ec2d219aceef91b93a842f1963d30050306c61b56"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1313,
+      "sha256": "432a4374190c210a4b9c8307618f02cd0a04d71816ec1f3d635f7eeb27d8e91a"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 1914,
+      "sha256": "21e7818c5e1e1f7cb239d8ba6e439df1fd97bfa5e35759e6954e271a893f6f6e"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1806,
+      "sha256": "9385855abdd4e3b844967c532f90f35ab062634a5b6e770350d9e9e147fc62c9"
+    }
+  ]
+}

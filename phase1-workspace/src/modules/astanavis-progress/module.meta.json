@@ -1,0 +1,10 @@
+{
+  "id": "astanavis-progress",
+  "type": "feature",
+  "summary": "Shared server-authoritative arcade session rewards.",
+  "description": "CloudCode game sessions and idempotent VIS rewards. DEV result simulation; no gameplay or wallet.",
+  "provides": ["server session result", "VIS rewards", "game result UI"],
+  "tags": ["astanavis", "progression"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" }
+}

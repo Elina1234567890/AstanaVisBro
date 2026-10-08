@@ -1,0 +1,18 @@
+{
+  "id": "mini-game",
+  "type": "template",
+  "summary": "The smallest complete game: a 15-second 'catch the stars' round launched from the lobby's Play button, with a leaderboard score.",
+  "description": "A tiny game of its own mode (React/DOM, no engine): tap as many stars as you can in 15 seconds, gold stars are worth 3. The score goes to the title's leaderboard, and a round counts for quests that ask for games_played, for timed events that pay for the 'play_round' action and for season chains open to clients. The platform gives it to a new title when no other game fits the idea — it shows where a game plugs into the base (sign-in → lobby → Play) and is meant to be replaced by the real game. No demo settings of its own: it plays on the base's world.",
+  "provides": [
+    "a small tap game launched from the lobby",
+    "score submitted to the leaderboard",
+    "rounds counted by quests, events and the season",
+    "placeholder game to replace with the real one"
+  ],
+  "tags": ["starter", "mini-game", "casual", "tap", "leaderboard"],
+  "author": {
+    "name": "iDos Games",
+    "url": "https://idosgames.com"
+  },
+  "version": "0.1.1"
+}

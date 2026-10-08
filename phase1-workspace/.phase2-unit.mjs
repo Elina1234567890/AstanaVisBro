@@ -1,0 +1,13 @@
+import vm from 'node:vm';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const context=vm.createContext({handlers:{}});
+vm.runInContext(fs.readFileSync('src/modules/astanavis-progress/server/balance.js','utf8'),context);
+vm.runInContext(fs.readFileSync('src/modules/astanavis-progress/server/handlers.js','utf8'),context);
+assert.equal(context.avReward(0),20);
+assert.equal(context.avReward(50),20);
+assert.equal(context.avReward(1000),45);
+assert.equal(context.avReward(100000),120);
+for (const score of [-1,0.5,Number.MAX_SAFE_INTEGER+1,Number.MAX_SAFE_INTEGER+1]) assert.ok(!Number.isSafeInteger(score)||score<0||score>Number.MAX_SAFE_INTEGER);
+assert.deepEqual(JSON.parse(JSON.stringify(context.AV.games)),['orb-merge','color-flow','cake-sort']);
+console.log('PASS: base reward, score bonus, bonus cap, maximum score, stable game IDs');

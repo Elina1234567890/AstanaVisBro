@@ -1,0 +1,44 @@
+{
+  "id": "marketplace",
+  "type": "feature",
+  "summary": "AstanaVis stackable card exchange with Listings, BuyOrders and escrow.",
+  "description": "Customized iDos Marketplace module: card-to-card barter, quantities, full settlement, cancellation, expiry claims and InventoryV2 refresh. No Collection trading or quantity DirectTrade.",
+  "provides": [
+    "public card Listings",
+    "card BuyOrders",
+    "escrow cancellation and claims",
+    "InventoryV2 refresh"
+  ],
+  "tags": [
+    "marketplace",
+    "astanavis",
+    "barter",
+    "escrow"
+  ],
+  "version": "0.1.1",
+  "author": {
+    "name": "iDos Games",
+    "url": "https://idosgames.com"
+  },
+  "events": {
+    "emits": [
+      {
+        "topic": "marketplace:busy@1",
+        "when": "a market mutation starts or reconciliation completes",
+        "payload": {
+          "busy": "boolean"
+        }
+      }
+    ],
+    "listens": [
+      {
+        "topic": "astanavis-shell:trade-card@1",
+        "why": "prefill the offered card before opening the screen"
+      },
+      {
+        "topic": "astanavis-shell:craft-busy@1",
+        "why": "block market mutations while Craft is in flight"
+      }
+    ]
+  }
+}

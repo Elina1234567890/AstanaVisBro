@@ -1,0 +1,43 @@
+{
+  "titleID": "1ZPS8DLV-DEV",
+  "success": true,
+  "steps": [
+    {
+      "name": "DEV configuration allows Item barter with zero commission, VIS unchanged",
+      "passed": true
+    },
+    {
+      "name": "offering more than owned is rejected without an escrow debit",
+      "passed": true
+    },
+    {
+      "name": "create 3 Mia for 2 Akira immediately escrows the exact stack quantity",
+      "passed": true
+    },
+    {
+      "name": "escrowed copies cannot be used in Craft or a second overselling listing",
+      "passed": true
+    },
+    {
+      "name": "buyer with no requested cards cannot accept; cancel returns all escrow",
+      "passed": true
+    },
+    {
+      "name": "barter settles both accounts exactly once, no VIS charge",
+      "passed": true
+    },
+    {
+      "name": "BuyOrder escrows payment; cancellation restores it; full fill settles atomically",
+      "passed": true
+    },
+    {
+      "name": "concurrent Craft and escrow cannot consume the same copies",
+      "passed": true
+    },
+    {
+      "name": "two buyers racing for one listing receive at most one grant",
+      "passed": true
+    }
+  ],
+  "verifiedAt": "2026-10-08T11:03:57.328Z"
+}

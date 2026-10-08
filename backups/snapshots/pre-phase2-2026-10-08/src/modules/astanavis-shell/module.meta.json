@@ -1,0 +1,10 @@
+{
+  "id": "astanavis-shell",
+  "type": "feature",
+  "summary": "AstanaVis navigation placeholders for Cards and Store.",
+  "description": "Informational screens without grants, purchases, packs or trading. Remove the Store placeholder before registering the standard Store module.",
+  "provides": ["AstanaVis Cards placeholder", "AstanaVis Store placeholder"],
+  "tags": ["astanavis", "shell"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" }
+}

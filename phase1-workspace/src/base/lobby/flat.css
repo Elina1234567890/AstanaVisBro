@@ -1,0 +1,67 @@
+/* Game gestures must not select UI text or start native image/link dragging. */
+body, body * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+body input, body textarea, body [contenteditable]:not([contenteditable="false"]),
+body [contenteditable]:not([contenteditable="false"]) * {
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
+}
+body img, body a { -webkit-user-drag: none; }
+
+/* The hosted platform badge must not cover the mobile bottom-tab hit targets. */
+@media (max-width: 600px) {
+  body:has([data-tutorial-anchor="tab:play"]) #idos-made-with {
+    bottom: calc(78px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
+
+/* Theme treatment of the existing iDos controls; no navigation or wallet logic. */
+[style*="radial-gradient"], div[style*="linear-gradient"], nav[style*="linear-gradient"] {
+  background: var(--idos-ui-bg-bottom) !important;
+}
+button[style*="linear-gradient"] {
+  background: var(--idos-ui-blue) !important;
+  color: var(--idos-ui-bg-bottom) !important;
+  border: 1px solid var(--idos-ui-bg-bottom) !important;
+  border-radius: 2px !important;
+  box-shadow: 3px 3px 0 var(--idos-ui-text) !important;
+}
+button[style*="linear-gradient"]:disabled {
+  background: var(--idos-ui-panel) !important;
+  color: var(--idos-ui-text-dim) !important;
+  border: 1px solid var(--idos-ui-text-dim) !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+button[style*="linear-gradient"] span { color: inherit !important; }
+* { text-shadow: none !important; }
+.av-hub .idos-press { border-radius: 2px !important; }
+
+/* Flat AstanaVis artwork on existing iDos icons and authoritative counter. */
+[data-tutorial-anchor="tab:play"] > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2214%22%20fill%3D%22%23ffe174%22%2F%3E%3Cpath%20d%3D%22m12%209%2011%207-11%207Z%22%20fill%3D%22%23151515%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-tutorial-anchor="tab:play"] > svg > *{visibility:hidden;}
+[data-tutorial-anchor="tab:cards"] > svg,.av-placeholder-cards > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M4%207h20v23H4Z%22%20fill%3D%22%23e6a0df%22%2F%3E%3Cpath%20d%3D%22M8%202h20v23H8Z%22%20fill%3D%22%23ffe174%22%2F%3E%3Cpath%20d%3D%22m18%206%206%208-6%208-6-8Z%22%20fill%3D%22%23e6a0df%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-tutorial-anchor="tab:cards"] > svg > *,.av-placeholder-cards > svg > *{visibility:hidden;}
+[data-tutorial-anchor="tab:store"] > svg,.av-placeholder-store > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M5%2010h22v19H5Z%22%20fill%3D%22%23ffe174%22%2F%3E%3Cpath%20d%3D%22M11%2011V8a5%205%200%200%201%2010%200v3%22%2F%3E%3Cpath%20d%3D%22m12%2018%204%206%204-6%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-tutorial-anchor="tab:store"] > svg > *,.av-placeholder-store > svg > *{visibility:hidden;}
+[data-tutorial-anchor="tab:profile"] > svg, [data-tutorial-anchor="lobby:profile"] > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2214%22%20fill%3D%22%23e6a0df%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2212%22%20r%3D%225%22%20fill%3D%22%23f5f5f5%22%2F%3E%3Cpath%20d%3D%22M7%2027v-2a9%209%200%200%201%2018%200v2%22%20fill%3D%22%23f5f5f5%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-tutorial-anchor="tab:profile"] > svg > *,[data-tutorial-anchor="lobby:profile"] > svg > *{visibility:hidden;}
+[data-tutorial-anchor="tab:friends"] > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2210%22%20r%3D%225%22%20fill%3D%22%23e6a0df%22%2F%3E%3Cpath%20d%3D%22M15%2028v-7a7%207%200%200%201%2014%200v7Z%22%20fill%3D%22%23e6a0df%22%2F%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2212%22%20r%3D%225%22%20fill%3D%22%2388cba5%22%2F%3E%3Cpath%20d%3D%22M3%2029v-5a8%208%200%200%201%2016%200v5Z%22%20fill%3D%22%2388cba5%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-tutorial-anchor="tab:friends"] > svg > *{visibility:hidden;}
+[data-resource-counter="VIS"] > svg{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2214%22%20fill%3D%22%23ffe174%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2210%22%2F%3E%3Cpath%20d%3D%22m10%2011%206%2011%206-11%22%20stroke-width%3D%223%22%2F%3E%3C%2Fsvg%3E");background-size:contain;background-repeat:no-repeat;}
+[data-resource-counter="VIS"] > svg > *{visibility:hidden;}
+nav .idos-press{border-radius:2px!important;}
+[data-resource-counter="VIS"], [data-tutorial-anchor="lobby:profile"]{border-radius:2px!important;border-width:1px!important;box-shadow:none!important;padding:6px 10px!important;}
+svg [fill="#4fb1ff"]{fill:var(--idos-ui-blue)}
+svg [fill="#59d35b"]{fill:var(--idos-ui-green)}
+svg [fill="#ffcf3a"],svg [fill="#ffd24a"]{fill:var(--idos-ui-gold)}
+svg [fill="#ff5a5a"]{fill:var(--idos-ui-red)}
+button[role="switch"],input[type="range"]{accent-color:var(--idos-ui-blue)}
+
+nav:has(> [data-tutorial-anchor="tab:play"]){border-radius:2px!important;border-width:1px!important;box-shadow:4px 4px 0 var(--idos-ui-text)!important;}
+svg [fill="#c98a3c"],svg [fill="#a86c26"],svg [fill="#ffd9a8"]{fill:var(--idos-ui-blue)}
+svg [stroke="#e89a12"],svg [stroke="#b86d06"]{stroke:var(--idos-ui-bg-bottom)}

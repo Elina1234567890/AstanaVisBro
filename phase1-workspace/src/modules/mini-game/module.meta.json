@@ -1,0 +1,17 @@
+{
+  "id": "mini-game",
+  "type": "template",
+  "summary": "Orb Merge: a Matter.js physics game inside the standard iDos lobby frame.",
+  "description": "Release colored orbs, merge exactly three matching tiers, build combo score, and end a round at the danger line. Results use the shared AstanaVis CloudCode VIS pipeline.",
+  "provides": [
+    "Matter.js physics and three-orb merge resolution",
+    "full-screen vertical game with the standard iDos back-to-lobby control",
+    "server-authoritative VIS result pipeline"
+  ],
+  "tags": ["astanavis", "orb-merge", "physics", "casual"],
+  "author": {
+    "name": "iDos Games",
+    "url": "https://idosgames.com"
+  },
+  "version": "0.1.1"
+}
