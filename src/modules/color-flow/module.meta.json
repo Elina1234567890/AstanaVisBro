@@ -1,0 +1,10 @@
+{
+  "id": "color-flow",
+  "type": "template",
+  "summary": "Color Flow mode entry; gameplay is intentionally deferred.",
+  "description": "Registers the liquid-sorting route without pretending gameplay is implemented.",
+  "provides": ["color flow mode entry"],
+  "tags": ["mode", "puzzle", "liquid-sort"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" }
+}

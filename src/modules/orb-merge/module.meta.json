@@ -1,0 +1,10 @@
+{
+  "id": "orb-merge",
+  "type": "template",
+  "summary": "Orb Merge mode entry; gameplay is intentionally deferred to the next specification.",
+  "description": "Registers the Orb Merge route in the AstanaVis Bro hub without implementing gameplay in stage one.",
+  "provides": ["Orb Merge mode entry"],
+  "tags": ["mode", "puzzle", "merge"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" }
+}
