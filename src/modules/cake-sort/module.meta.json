@@ -1,0 +1,10 @@
+{
+  "id": "cake-sort",
+  "type": "template",
+  "summary": "Cake Sort mode entry; gameplay is intentionally deferred.",
+  "description": "Registers the cake-piece sorting route without pretending gameplay is implemented.",
+  "provides": ["cake sort mode entry"],
+  "tags": ["mode", "puzzle", "cake-sort"],
+  "version": "0.1.0",
+  "author": { "name": "AstanaVis Bro" }
+}

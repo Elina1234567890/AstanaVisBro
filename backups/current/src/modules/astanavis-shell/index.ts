@@ -1,1 +1,0 @@
-export { astanavisShellModule } from "./module";

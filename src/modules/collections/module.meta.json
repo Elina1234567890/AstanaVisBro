@@ -1,0 +1,30 @@
+{
+  "id": "collections",
+  "type": "feature",
+  "summary": "Collections for any game: an album of card sets with set rewards and a grand prize, packs and chests, trading spare cards with friends.",
+  "description": "A ready collections screen (engine Collection) for ANY game, built on the @idosgames/react/ui kit and client.collection. Album: the player's collection with every set in order — the cards held (with how many) and the gaps, a reward to claim per completed set and a grand prize for the whole album. Packs: every pack type with every way to pay, opened once or ten at a time (the server rolls them — new cards and duplicates are shown), and collection chests bought with the points duplicates turn into. Trades: offers from other players (accept / decline), your own offers (cancel), and giving a spare card to a friend. Registers the 'collections' feature; its badge counts set rewards and the grand prize waiting. Ships title-seed.json: a small album with sets, a pack and a chest.",
+  "provides": [
+    "collection album with sets",
+    "set rewards and grand prize",
+    "card packs, once or ten at a time",
+    "collection chests for points",
+    "trading cards with friends",
+    "badge for rewards waiting"
+  ],
+  "tags": [
+    "collection",
+    "album",
+    "cards",
+    "stickers",
+    "trading",
+    "ui",
+    "screen",
+    "events"
+  ],
+  "author": {
+    "name": "iDos Games",
+    "url": "https://idosgames.com"
+  },
+  "version": "0.1.1"
+}
+
