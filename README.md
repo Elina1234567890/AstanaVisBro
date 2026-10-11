@@ -87,7 +87,7 @@ full breakdown.
 
 ### Prerequisites
 
-- Node.js `20.19+` or `22.12+`
+- Node.js `20.19+`, `22.12+` or any newer supported release
 - npm
 
 ### Run locally
